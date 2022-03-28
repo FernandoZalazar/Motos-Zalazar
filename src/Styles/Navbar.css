@@ -1,0 +1,46 @@
+.navbar{
+    background-color: rgba(255, 0, 128, 0.836);
+    display: grid;
+    grid-template-areas:
+    "moto . pista enduro calle . registrarme iniciar carrito"
+    ;
+    grid-template-columns: 21% 13% 8% 8% 8% 18% 8% 8% 8%;
+    grid-template-rows: 100%;
+    height: 3rem;
+    width: 100%;
+    text-decoration: none;
+    box-shadow: 0px 0px 10px black;
+    position: fixed;
+    top: 0%;
+    align-items: center;
+}
+.border{
+    border-left: 1px solid rgb(207, 207, 207);
+}
+.textstyle{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+.moto{
+    grid-area: moto;
+    font-size: 1.5rem;
+}
+.pista{
+    grid-area: pista;
+}
+.enduro{
+    grid-area: enduro;
+}
+.calle{
+    grid-area: calle;
+}
+.registrarme{
+    grid-area: registrarme;
+}
+.iniciar{
+    grid-area: iniciar;
+}
+.carrito{
+    grid-area: carrito;
+}
