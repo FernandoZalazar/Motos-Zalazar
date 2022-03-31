@@ -4,6 +4,7 @@ import { CartContext } from "./CartContext";
 
 
 const Cart = () => {
+
     const test = useContext(CartContext);
     return (
         <>
